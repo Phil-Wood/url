@@ -1,6 +1,6 @@
 # URL
 
-A simple php7.1 class to set and get the current full url. 
+A simple php7.1 class to set and get the current full url ( app/core/url.php ). 
 
 
 ### Prerequisites
@@ -19,4 +19,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* [Ray McCord](https://css-tricks.com/snippets/php/get-current-page-url/#comment-531645)
+* [Peter](https://css-tricks.com/snippets/php/get-current-page-url/#comment-1604248)
