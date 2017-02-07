@@ -9,6 +9,19 @@ A simple php7.1 class to set and get the current full url ( app/core/url.php ).
 PHP 7.1
 ```
 
+## Usage
+
+```php
+$url 		= new Url();
+
+$full_url 	= $url->getUrl();
+$urlParts	= $url->getUrlArray();
+$scheme 	= $url->getScheme();
+$host 		= $url->getHost();
+$paths 		= $url->getPaths();
+$query 		= $url->getQuery();
+```
+
 ## Built With
 
 * [Composer](https://getcomposer.org/) - Dependency Management
