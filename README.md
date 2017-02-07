@@ -1,6 +1,6 @@
 # URL
 
-A simple php7.1 class to set and get the current full url ( app/core/url.php ). 
+A simple php7.1 class to set and get the current full url and it's parts ( app/core/url.php ). 
 
 
 ### Prerequisites
