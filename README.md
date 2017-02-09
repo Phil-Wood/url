@@ -15,7 +15,7 @@ PHP 7.1
 $url 		= new Url();
 
 $full_url 	= $url->getUrl();
-$urlParts	= $url->getUrlArray();
+$url_parts	= $url->getUrlArray();
 $scheme 	= $url->getScheme();
 $host 		= $url->getHost();
 $paths 		= $url->getPaths();
