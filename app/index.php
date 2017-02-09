@@ -14,11 +14,9 @@ $host 		= $url->getHost();
 $paths 		= $url->getPaths();
 $query 		= $url->getQuery();
 
-$helper 	= Helper::Instance();
-
-$helper::raw($full_url);
-$helper::raw($url_parts);
-$helper::raw($scheme);
-$helper::raw($host);
-$helper::raw($paths);
-$helper::raw($query);
+Helper::raw($full_url);
+Helper::raw($url_parts);
+Helper::raw($scheme);
+Helper::raw($host);
+Helper::raw($paths);
+Helper::raw($query);
